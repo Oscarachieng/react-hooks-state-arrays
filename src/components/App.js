@@ -1,4 +1,5 @@
 import React from "react";
+import HandleChange from "./HandleChange";
 import SpicyFoodList from "./SpicyFoodList";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div>
       <h3>SpicyFoodList</h3>
       <SpicyFoodList />
+      <HandleChange />
     </div>
   );
 }
